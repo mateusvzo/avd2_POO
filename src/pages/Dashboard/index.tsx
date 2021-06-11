@@ -3,12 +3,6 @@ import React, { useEffect, useState } from 'react';
 import api from '../../services/api';
 import { Container, Table } from './styles';
 
-interface EventoIn {
-  nomeevento: string;
-  local: string;
-  diasemana: string;
-  horario: string;
-}
 
 interface EventoInterface {
   id: string;
